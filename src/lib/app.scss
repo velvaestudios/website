@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'VelvetSakura';
+	src: url('/assets/VelvetSakura.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'VelvetSakura-Bold';
+	src: url('/assets/VelvetSakura-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'VelvetSakura-ExtraBold';
+	src: url('/assets/VelvetSakura-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'VelvetSakura-Black';
+	src: url('/assets/VelvetSakura-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+$pourpre: #a41623;
+$gold: #d4af37;
+$white: #fbfbfb;
+$black: #0f0f0f;
+
+:global(body),
+:global(html) {
+	margin: 0;
+	padding: 0;
+}
+
+:global(body) {
+	font-family: 'VelvetSakura', Arial, sans-serif;
+	background: $white;
+	color: $black;
+	background-image: url('/assets/velvet-bg.png');
+	background-size: 120% 120%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+}
+
+:global(h1, h2, h3, h4, h5, h6) {
+	font-family: 'VelvetSakura-Bold', 'VelvetSakura', Arial, sans-serif;
+}
